@@ -1,0 +1,133 @@
+body * {
+  box-sizing: border-box;
+  font-family: 'Anton', sans-serif;
+}
+
+html {
+  background-image: url("https://kyigt1bcans3ofli94di0kch-wpengine.netdna-ssl.com/wp-content/blogs.dir/9/files/2013/12/beyonce.jpg");
+  background-size: cover;
+}
+
+html, body {
+	height: 100%;
+}
+
+#container {
+	height: 100%;
+}
+
+h1, h2 {
+	color: #f4c0d7;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-family: 'Anton';
+	text-align: center;
+}
+
+h1 {
+	font-size: 64px;
+}
+
+h2 {
+	font-size: 35px;
+}
+
+#start-page {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content:space-between;
+}
+
+.feedback-page{
+  height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content:space-between;
+}
+
+.question-page{
+  height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content:space-between;
+}
+
+button {
+	display: block;
+	min-height: 80px;
+	min-width: 80px;
+	margin: auto;
+	font-size: 20px;
+	border: none;
+	background-color: #f4c0d7;
+	color: black;
+	border-radius: 5px;
+	padding: 18px 16px;
+	width: 60%;
+	max-width: 200px;
+	font-family: 'Anton';
+}
+
+form{
+  width: 50%;
+  max-width: 600px;
+  background-color:rgba(0,0,0,0.7);
+}
+
+fieldset{
+  border: none;
+}
+
+form input{
+  float: left;
+  margin: 10px 10px 10px 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #ffffff;
+  transition: 0.2s all linear;
+  outline: none;
+  position: relative;
+}
+
+form label{
+  float: left;
+  color: white;
+  width: 100%;
+  font-size: 25px;
+  border: 1px solid #f4c0d7;
+  margin-bottom: 15px;
+}
+
+form label:hover{
+  color: #f4c0d7;
+  background-color: grey;
+}
+
+form input label{
+  clear: both;
+}
+
+input:checked {
+  border: 8px solid #f4c0d7 ;
+}
+
+h4 {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 25px;
+}
+
+.gif {
+  width: 50%;
+  min-width: 450px
+  height: 40%
+  min-height: 600px
+}
+
