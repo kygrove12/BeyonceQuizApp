@@ -101,7 +101,7 @@ function createQuestionPage(questionNumber, quizQuestions){
     return `<div class="question-page">
     <h2>${quizQuestions[questionNumber].question}</h2>
     <form name=quizTemplate role=form>
-    <fieldset role="radioset">
+    <fieldset legend="answerOptions">
     <label class="answerOption">
     <input type="radio" value="${quizQuestions[questionNumber].option1}" name="answer" role="radio" required>
     <span>${quizQuestions[questionNumber].option1}</span>
@@ -121,7 +121,7 @@ function createQuestionPage(questionNumber, quizQuestions){
     <button type="button" id="submitButton">Submit Answer</button>
     </fieldset>
     </form>
-    <h4>Current Question: ${(questionNumber+1)}&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;Your Score: ${rightAnswers}/10<h4>
+    <h3>Current Question: ${(questionNumber+1)}&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;Your Score: ${rightAnswers}/10<h3>
     </div>`;
 } else {
     return`
